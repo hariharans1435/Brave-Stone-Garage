@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather+Sans:wght@400;700&display=swap");
+.grid-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .gridy{
+    margin-bottom: -20px;
+  }
+  .grid-item1 {
+    box-sizing: border-box;
+    width: calc(33.33% - 0px);
+    
+    padding: 20px;
+    background-color: rgb(71, 10, 17);
+    /* border: 1px solid #ddd; */
+    text-align: center;
+  }
+  
+  .grid2{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+  }
+.img-box1{
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.item1 .img-box1 {
+width: 70px;
+height: 70px;
+text-align: center;
+line-height: 70px;
+background-color: rgb(153, 0, 17) ;
+color: rgb(255, 255, 255);
+border-radius: 100%;
+background-repeat: no-repeat;
+background-position: center center;
+}
+.img-box1:hover{
+background-color: rgb(69, 93, 122);
+}
+.p1{
+color: white;
+}
+.boxy{
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  margin: auto;
+  text-decoration: none;
+}
+.boxy:hover{
+  color: rgb(69, 93, 122);
+    
+}
+  /* Specific styles for the second and third rows */
+  .second-row-item1,
+  .third-row-item1 {
+    width: calc(100% - 0px);
+    background-color: rgb(71, 10, 17);
+    color: white;
+    /* margin: 10px; */
+  }
+  .second-row-item12{
+    padding-bottom: 50px;
+  }
+  .second-row-item1{
+      border-top: 1px solid white;
+  }
+  @media (max-width: 768px) {
+    .grid-item1 {
+      width: calc(100% - 0px);
+    }
+    .grid2{
+  border: none;
+}
+/* .second-row-item{
+      border: none;
+  } */
+  }
+
+  @media (max-width: 480px) {
+    .grid-item1 {
+      width: calc(100% - 0px);
+    }
+    .grid2{
+  border: none;
+}
+.second-row-item1{
+  border: none;
+  }
+  }
+  .second-row-item1{
+    padding-top: 30px;
+    }
+    .hrstyle{
+      margin-top: -25px;
+      width: 90%; 
+      height:0.9px;
+      border:none;
+      color:#ffffff;
+      background-color:#ffffff;
+    }
+    .footbutton{
+      background:none;
+      border: none;
+      outline: none;
+    }
